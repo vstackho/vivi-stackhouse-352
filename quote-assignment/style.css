@@ -1,0 +1,31 @@
+/*
+MY COLOR PALETTE
+Cyan - #a0ddff
+Dusty Blue - #758ecd
+Light Blue - #c1cefe
+Royal Blue - #7189ff
+Purple Blue - #624cab
+*/
+
+
+body {
+    background-color:#c1cefe ;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Courgette', cursive;
+    color:#7189ff ;
+    border:3px solid #758ecd; 
+    padding:60px 30px 10px 30px; 
+    margin:auto; 
+}
+
+#highlight {
+    color:#624cab; 
+    font-weight:bold; 
+}
