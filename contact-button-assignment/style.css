@@ -1,0 +1,33 @@
+body {
+    
+    background-color:#c1cefe;
+        text-align:center; 
+}
+
+button {
+    background-color:#7E52A0; 
+    color:white; 
+    font-family: 'Roboto Condensed', sans-serif;
+    width:175px;
+    padding:10px;
+    margin-top:30px; 
+    border-radius:8px; 
+    border:none; 
+    text-transform:lowercase; 
+    
+}
+
+button:hover {
+    background-color:#29274C;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight:lighter;
+
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal; 
+}
