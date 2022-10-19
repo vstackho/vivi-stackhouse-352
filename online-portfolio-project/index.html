@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -17,13 +15,13 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-
+<link href="style.css" rel="stylesheet">
 
 </head>
     
 <body>
-
- <!-- Navbar start-->
+    
+<!-- Horizontal Nav Start -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     
@@ -33,15 +31,19 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
         <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
+          <a class="nav-link" href="#Experience">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#Experience">Experience</a>
         </li>
       
        <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
+          <a class="nav-link" href="#Education">Education</a>
         </li>
           
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#Skills">Skills</a>
         </li>
             
       </ul>
@@ -49,81 +51,103 @@
     </div>
   </div>
 </nav>
-<!-- Navbar end-->
+<!-- Horizontal Nav end-->
     
-<div class="container-fluid"> 
-    <div class="row">
+<!--Topper begin--> 
     
-        <div class="col-4">
-Headshot 
+<div class="container-fluid" id="topper">
+    <div class="row"
+        id="toprow">
+        <div class="col-sm-4">
+            <img src="vivi-square-headshot.JPEG" id="headshot">       
         </div>
-        
-        <div class="col-8">
-             <h1>Name</h1> 
-            <h2>Title</h2>
+        <div class="col-sm-8">
+            <h1>Viviane Stackhouse</h1>
+            <h2>Journalism student</h2>
         </div> 
-    
-    </div> 
-</div> 
-<!---Topper End---!>
-
-
-<!-- Horizontal Nav Start -->
-    <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-</ul>
-<!-- Horizontal Nav End -->
-    
+    </div>
+<button id="button"><a href="#">Contact Me</a></button>
+</div>
+<!--Topper end--> 
     
 <div class="container-fluid">
     <div class="row">
         <div class="col">
+            <a name="Experience"></a>
             <h3>Experience</h3>
         </div>
     </div>
     <div class="row">
         <div class="col-3">
-            <p id="title">Title</p>
-            <p id="company">Company</p>
-            <p id="date">Date</p>
+            <p 
+               id="title">Title</p>
+            <p 
+               id="company">Company</p>
+            <p 
+               id="date">Date</p>
         </div>
         <div class="col-9">
-        
-        
-        </div>
-        
+            <p id="description">
+                erat at iaculis condimentum. Aliquam erat volutpat. Mauris eu ipsum nunc.
+            </p>
+        </div>   
     </div>
 </div>    
 <div class="container-fluid">
     <div class="row">
         <div class="col">
+            <a name="Education"></a>
             <h3>Education</h3>
         </div>
     </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <p 
+               id="title">Name</p>
+            <p 
+               id="company">Date</p>
+            <p 
+               id="date">Major</p>
+        </div>
+        <div class="col-9">
+            <p id="description">
+                erat at iaculis condimentum. Aliquam erat volutpat. Mauris eu ipsum nunc.
+            </p>
+        </div>   
 </div>       
 <div class="container-fluid">
     <div class="row">
         <div class="col">
+            <a name="Skills"></a>
             <h3>Skills</h3>
         </div>
     </div>
-</div>       
-    
-    
-    
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <p 
+               id="title">Name</p>
+        </div>
+        <div class="col-9">
+            <p id="description">
+                erat at iaculis condimentum. Aliquam erat volutpat. Mauris eu ipsum nunc.
+            </p>
+        </div>   
+</div>    
+<!--Headhot start-->
+<img src="697CEEC0-3D50-48F4-9C09-50E2E7507630.JPEG" id="headshot">
+<!--Headhot end-->
+
+
+
+
+
 <!---Footer start--->    
 <div class="container-fluid" id="footer">
   Copyright 2022 Viviane Stackhouse  
     </div>
-<!Footer end--->
+<!---Footer end--->    
 
 </body>
 </html>
